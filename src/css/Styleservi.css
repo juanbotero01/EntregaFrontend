@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-izquierda {
+    width: 50%;
+    background-color: #9ebae8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 120px;       
+    height: auto;
+    margin-bottom: -20px;
+}
+.logo-container h1{
+    font-size: 2.0em;
+    font-weight: bold;    
+}
+
+.illustracion {        
+    width: 70%;
+    opacity: 40%;
+}
+
+.login-right {
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+
+
+form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border: 3px solid #000;
+    border-radius: 8px;
+    
+   
+}
+
+.posi-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.login-button {
+    width: 50%;
+    padding: 15px;
+    font-size: 1.20rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #9ebae8;
+    color: #0f0e0e;    
+    margin-left: 90px;
+    
+}
+
+.login-button:hover {
+    background-color: #9faee4;
+}
+
+.links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.links a {
+    color: #000;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links p {
+    margin-top: 10px;
+}
